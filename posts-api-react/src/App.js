@@ -18,17 +18,16 @@ class App extends Component {
   };
 
   renderPost = ({ id, title, contents }) => (
-    <div key={id} className='mainDiv'>
-    <h1 className='titleHeader'>{title}</h1>    
-    <p className='content'>{contents}</p> 
-    - - - - - -       
+    <div key={id} className="mainDiv">
+      <h1 className="titleHeader">{title}</h1>
+      <p className="content">{contents}</p>
+      - - - - - -
     </div>
   );
   render() {
     const { posts } = this.state;
     return (
-      <div className="App">
-        sanity
+      <div className="App">        
         {posts.map(this.renderPost)}
       </div>
     );
