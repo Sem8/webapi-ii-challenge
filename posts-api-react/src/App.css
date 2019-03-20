@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+.mainDiv {
+  width: 1000px;
+  margin: 0 auto;
+  background: peachpuff;
+  border-radius: 20px;
+  color: purple;
+};
+
+
+
