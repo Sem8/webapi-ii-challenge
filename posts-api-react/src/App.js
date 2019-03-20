@@ -18,9 +18,9 @@ class App extends Component {
   };
 
   renderPost = ({ id, title, contents }) => (
-    <div key={id}>
-    <h1>{title}</h1>    
-    <p>{contents}</p> 
+    <div key={id} className='mainDiv'>
+    <h1 className='titleHeader'>{title}</h1>    
+    <p className='content'>{contents}</p> 
     - - - - - -       
     </div>
   );

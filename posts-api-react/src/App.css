@@ -2,4 +2,18 @@
   text-align: center;
 }
 
+.mainDiv {
+  width: 1000px;
+  margin: 0 auto;
+  background: peachpuff;
+  border-radius: 20px;
+  color: purple;
+};
 
+.mainDiv h1 {
+  color: purple;
+}
+
+.content {
+  
+}
